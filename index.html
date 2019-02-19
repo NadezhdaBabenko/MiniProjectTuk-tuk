@@ -1,0 +1,973 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style_mobile.css">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+         <!-- 1 блок Выпадающее меню -->
+     <div id="menu_div">
+            <div id="menu_logo_div">
+                    <img src="img/main_logo_white.png" id="menu_logo" >
+            </div>
+
+            <div id="menu_search_div">
+                <input placeholder="Поиск" type="search" id="menu_search">
+                <button id="menu_search_btn">
+                        <i class="fa fa-search fa-lg menu_search_fa" ></i>
+                </button>
+            </div>
+
+            <div id="menu_menu_div">
+                <button id="menu_btn">&lt;</button>
+                <a id='menu_menu_a' href="#">Меню</a>
+            </div>
+
+            <div>
+                <ul class="widget-list">
+                    <div id="main_menu">
+                        <div id='menu_catalog_div'>
+                            <li><a id="main_menu_catalog" href="">Каталог товаров</a> </li>
+                            <button id="menu_catalog_btn">&gt;</button>
+                        </div>
+                        <li class="main_menu_li"><a class="main_menu" href="">Заказать услуги дизайнера</a></li>
+                        <li class="main_menu_li"><a class="main_menu" href="">О компании</a></li>
+                        <li class="main_menu_li"><a class="main_menu" href="">Доставка и оплата</a></li>
+                        <li class="main_menu_li"><a class="main_menu" href="">Контакты</a></li>
+                        <li class="main_menu_li"><a class="main_menu" href="">Помощь</a></li>
+                        <li class="main_menu_li"><a class="main_menu" href="">Катра сайта</a></li>
+                    </div>
+                    <div id="menu_2_level">
+                        <div class="menu_2_div menu_2_div_first">
+                            <li class="menu_li_2"><a class="menu_2" href="">Камины</a> </li>
+                            <button class="menu_btn_2" id="menu_btn_2_1">&gt;</button>
+                        </div>
+                        <div class="menu_2_div">
+                            <li class="menu_li_2"><a class="menu_2" href="">Мебель</a></li>
+                            <button class="menu_btn_2" id="menu_btn_2_2">&gt;</button>    
+                        </div>  
+                        <div class="menu_2_div">
+                            <li class="menu_li_2"><a class="menu_2" href="">Освещение</a></li>
+                            <button class="menu_btn_2" id="menu_btn_2_3">&gt;</button>    
+                        </div>
+                        <div class="menu_2_div">
+                            <li class="menu_li_2"><a class="menu_2" href="">Сантехника</a></li>
+                            <button class="menu_btn_2" id="menu_btn_2_4">&gt;</button>    
+                        </div>
+                        <div class="menu_2_div">
+                            <li class="menu_li_2"><a class="menu_2" href="">Настенные покрытия</a></li>
+                            <button class="menu_btn_2" id="menu_btn_2_5">&gt;</button>    
+                        </div>
+                        <div class="menu_2_div">
+                            <li class="menu_li_2"><a class="menu_2" href="">Напольные покрытия</a></li>
+                            <button class="menu_btn_2" id="menu_btn_2_6">&gt;</button>    
+                        </div>
+                        <div class="menu_2_div">
+                            <li class="menu_li_2"><a class="menu_2" href="">Декор</a></li>
+                            <button class="menu_btn_2" id="menu_btn_2_7">&gt;</button>    
+                        </div> 
+                    </div>
+
+<!-- камины -->
+                    <div id="menu_3_level_1">
+                        <div class="menu_3_div_1 menu_3_div_first">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Электрокамины</a> </li>
+                        </div>
+                        <div class="menu_3_div_1">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Каминокомплекты</a></li> 
+                        </div>  
+                        <div class="menu_3_div_1">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Порталы</a></li>  
+                        </div>   
+                    </div>
+<!-- мебель -->
+                    <div id="menu_3_furniture">
+                        <div class="menu_3_div_1 menu_3_div_first">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Комплекты мебели</a> </li>
+                        </div>
+                        <div class="menu_3_div_1">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Диваны</a></li> 
+                            <button class="menu_btn_2" id="menu_3_sofas">&gt;</button> 
+                        </div>  
+                        <div class="menu_3_div_1">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Кровати</a></li>  
+                            <button class="menu_btn_2" id="menu_3_beds">&gt;</button> 
+                        </div>    
+                        <div class="menu_3_div_1 menu_3_div_first">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Столы</a> </li>
+                            <button class="menu_btn_2" id="menu_3_tables">&gt;</button> 
+                        </div>
+                        <div class="menu_3_div_1">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Стулья</a></li> 
+                            <button class="menu_btn_2" id="menu_3_chairs">&gt;</button> 
+                        </div>  
+                        <div class="menu_3_div_1">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Кресла и пуфы</a></li>  
+                            <button class="menu_btn_2" id="menu_3_armchairs">&gt;</button> 
+                        </div>   
+                        <div class="menu_3_div_1 menu_3_div_first">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Тумбы и комоды</a> </li>
+                            <button class="menu_btn_2" id="menu_3_commodes">&gt;</button> 
+                        </div>
+                        <div class="menu_3_div_1">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Лавки</a></li> 
+                            <button class="menu_btn_2" id="menu_3_lavki">&gt;</button> 
+                        </div>  
+                        <div class="menu_3_div_1">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Шкафы и полки</a></li> 
+                            <button class="menu_btn_2" id="menu_3_cupboards">&gt;</button>  
+                        </div>   
+                        <div class="menu_3_div_1">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Зеркала</a></li> 
+                            <button class="menu_btn_2" id="menu_3_mirrors">&gt;</button>  
+                        </div>  
+                        <div class="menu_3_div_1">
+                            <li class="menu_li_3_1"><a class="menu_3_1" href="">Детская мебель</a></li> 
+                            <button class="menu_btn_2" id="menu_3_children">&gt;</button>  
+                        </div> 
+                    </div>
+
+                    <!-- освещение -->
+                    <div id="menu_3_light">
+                            <div class="menu_3_div_1 menu_3_div_first">
+                                <li class="menu_li_3_1"><a class="menu_3_1" href="">Люстры</a></li>
+                                <button class="menu_btn_2" id="menu_3_luster">&gt;</button> 
+                            </div>
+                            <div class="menu_3_div_1">
+                                <li class="menu_li_3_1"><a class="menu_3_1" href="">Светильники</a></li> 
+                                <button class="menu_btn_2" id="menu_3_lamp">&gt;</button> 
+                            </div>  
+                            <div class="menu_3_div_1">
+                                <li class="menu_li_3_1"><a class="menu_3_1" href="">Настольные лампы</a></li>  
+                                <button class="menu_btn_2" id="menu_3_table_lamps">&gt;</button> 
+                            </div>    
+                            <div class="menu_3_div_1 menu_3_div_first">
+                                <li class="menu_li_3_1"><a class="menu_3_1" href="">Точечные светильники</a> </li>
+                                <button class="menu_btn_2" id="menu_3_spotlights">&gt;</button> 
+                            </div>
+                            <div class="menu_3_div_1">
+                                <li class="menu_li_3_1"><a class="menu_3_1" href="">Бра</a></li> 
+                                <button class="menu_btn_2" id="menu_3_sconce">&gt;</button> 
+                            </div>  
+                            <div class="menu_3_div_1">
+                                <li class="menu_li_3_1"><a class="menu_3_1" href="">Торшеры</a></li>  
+                                <button class="menu_btn_2" id="menu_3_torchere">&gt;</button> 
+                            </div>   
+                            <div class="menu_3_div_1 menu_3_div_first">
+                                <li class="menu_li_3_1"><a class="menu_3_1" href="">Детские светильники</a> </li>
+                                <button class="menu_btn_2" id="menu_3_childrens_lamps">&gt;</button> 
+                            </div>
+                            <div class="menu_3_div_1">
+                                <li class="menu_li_3_1"><a class="menu_3_1" href="">Светильники для ванной</a></li> 
+                                <button class="menu_btn_2" id="menu_3_bathroom_lamps">&gt;</button> 
+                            </div>  
+                            <div class="menu_3_div_1">
+                                <li class="menu_li_3_1"><a class="menu_3_1" href="">Лампы</a></li> 
+                                <button class="menu_btn_2" id="menu_3_lamp2">&gt;</button>  
+                            </div>   
+                            <div class="menu_3_div_1">
+                                <li class="menu_li_3_1"><a class="menu_3_1" href="">Уличные светильники</a></li> 
+                                <button class="menu_btn_2" id="menu_3_street_lights">&gt;</button>  
+                            </div>  
+                        </div>
+                    
+
+ 
+                </ul>
+            </div> 
+            <div id="menu_change_language">
+                <p id="menu_change_language_p">Выберите язык</p>
+                <div id='change_language'>
+                    <div class="container">
+                        <form class="toggle">
+                            <input type="radio" id="choice1" name="choice" value="creative">
+                            <label for="choice1">KZ</label>
+                            <input type="radio" id="choice2" name="choice" value="productive">
+                            <label for="choice2">RU</label>
+                            <div id="flap"><span class="content_change">productive</span></div>
+                        </form>
+                    </div>
+                </div>
+            </div>   
+            <div id="menu-links">
+                    <a href="#">
+                        <i class="fa fa-twitter-square fa-2x menu_icons"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-google-plus-square fa-2x menu_icons"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-instagram fa-2x menu_icons"></i>
+                    </a>
+                    <a href="#">    
+                        <i class="fa fa-facebook-square fa-2x menu_icons"></i>
+                    </a>
+                </div>
+            </div> 
+    </div>
+
+        <div class="background"></div>
+
+
+        <div class="content">
+        <!-- 1 БЛОК горизонтальное меню -->
+        <div id="first_block">
+            <div id="first_block_menu_right1">
+                <i class="fa fa-bars fa-lg" id="first_block_menu_right_bars"></i>
+                <p id="first_block_title">Конструктор Вашего Интерьера</p>
+            </div>
+            <div id="first_block_menu_right">
+                    <div class="first_block_menu_right">
+                        <a href="#" class="first_block_menu_right_a">
+                            <i class="fa fa-search fa-lg" ></i>
+                        </a>
+                    </div>
+                    <div class="first_block_menu_right">
+                        <a href="#" class="first_block_menu_right_a"> 
+                            <i class="fa fa-sign-in fa-lg"></i>
+                        </a>
+                    </div>
+                    <div class="first_block_menu_right">
+                        <a href="#" class="first_block_menu_right_a">
+                            <i class="fa fa-heart fa-lg" class="first_block_menu_right_0"></i>
+                            <p class="first_block_quantity">(0)</p>
+                        </a>
+                    </div>
+                    <div class="first_block_menu_right">
+                        <a href="#" class="first_block_menu_right_a">
+                            <i class="fa fa-balance-scale fa-lg" class="first_block_menu_right_0"></i>
+                            <p class="first_block_quantity">(0)</p>  
+                        </a>  
+                    </div>
+                    <div class="first_block_menu_right">
+                        <a href="#" class="first_block_menu_right_a">
+                            <i class="fa fa-shopping-cart fa-lg" class="first_block_menu_right_0"></i>
+                            <p class="first_block_quantity">(0)</p>
+                            <!-- <div class="clear"></div> -->
+                        </a>
+                    </div>    
+            </div>
+            <div class="clear"></div>
+        </div>
+<div id="fixed">
+        <!-- 2 BLOCK -->
+        <div id="second_block">
+            <img  id='second_block_img' src="img/img1.png">
+            <div id="load"></div>
+            <div id="second_block_btns">
+                <button id="second_block_btn1"></button>
+                <button id="second_block_btn2"></button>
+            </div>
+        </div>
+
+        <!-- 3 БЛОК -->
+        <ul id="third_block">
+            <li ><a href="#third_block_stock_btn" class="third_block_a active" id="third_block_stock_btn">АКЦИИ</a></li>
+            <li><a href="#third_block_new_btn" class="third_block_a" id="third_block_new_btn">НОВИНКИ</a></li>
+            <li><a href="#third_block_popular_btn" class="third_block_a"id="third_block_popular_btn">ПОПУЛЯРНЫЕ</a></li>
+        </ul>
+        <div id="third_block_btns">
+            <button id="third_block_prev_btn">&lt;</button>
+            <button id="third_block_next_btn">&gt;</button>
+        </div>
+        <div id="third_block_btns_new">
+            <button id="third_block_prev_btn_new">&lt;</button>
+            <button id="third_block_next_btn_new">&gt;</button>
+        </div>
+        <div id="third_block_btns_pop">
+                <button id="third_block_prev_btn_pop">&lt;</button>
+                <button id="third_block_next_btn_pop">&gt;</button>
+            </div>
+    <div id="div100">
+        <div id="third_block_slide" style="visibility:visible">
+            <div id="third_block_slide_first" class="third_block_slide">
+                <div class='third_block_img_container'>
+                    <a href="#"><img class='third_block_img' src="img/img5.jpg"></a>
+                    <div class="icons_img">
+                            <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                    </div>
+                </div>
+                <div class='third_block_img_content'>
+                    <div class="third_block_specification">
+                        <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                    </div>
+                    <div class="third_block_prises">
+                        <span class="old_prise">1 323</span>
+                        <span class="prise">915 грн</span>
+                    </div>
+                    <div class="third_block_buy">
+                        <a href="#">КУПИТЬ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="third_block_slide">
+                <div class='third_block_img_container'>
+                    <a href="#"><img class='third_block_img' src="img/img5.jpg"></a>
+                    <div class="icons_img">
+                            <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                    </div>
+                </div>
+                <div class='third_block_img_content'>
+                    <div class="third_block_specification">
+                        <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                    </div>
+                    <div class="third_block_prises">
+                        <span class="old_prise">1 323</span>
+                        <span class="prise">915 грн</span>
+                    </div>
+                    <div class="third_block_buy">
+                        <a href="#">КУПИТЬ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="third_block_slide">
+                <div class='third_block_img_container'>
+                    <a href="#"><img class='third_block_img' src="img/img5.jpg"></a>
+                    <div class="icons_img">
+                            <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                    </div>
+                </div>
+                <div class='third_block_img_content'>
+                    <div class="third_block_specification">
+                        <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                    </div>
+                    <div class="third_block_prises">
+                        <span class="old_prise">1 323</span>
+                        <span class="prise">915 грн</span>
+                    </div>
+                    <div class="third_block_buy">
+                        <a href="#">КУПИТЬ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="third_block_slide">
+                <div class='third_block_img_container'>
+                    <a href="#"><img class='third_block_img' src="img/img5.jpg"></a>
+                    <div class="icons_img">
+                            <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                    </div>
+                </div>
+                <div class='third_block_img_content'>
+                    <div class="third_block_specification">
+                        <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                    </div>
+                    <div class="third_block_prises">
+                        <span class="old_prise">1 323</span>
+                        <span class="prise">915 грн</span>
+                    </div>
+                    <div class="third_block_buy">
+                        <a href="#">КУПИТЬ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="third_block_slide">
+                <div class='third_block_img_container'>
+                    <a href="#"><img class='third_block_img' src="img/img4.jpg"></a>
+                    <div class="icons_img">
+                        <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                        <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                        <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                    </div>
+                </div>
+                <div class='third_block_img_content'>
+                    <div class="third_block_specification">
+                        <a href="#">ЛЮСТРА НА 12 ПЛАФОНОВ</a>
+                    </div>
+                    <div class="third_block_prises">
+                        <span class="old_prise">14 653</span>
+                        <span class="prise">10 456 грн</span>
+                    </div>
+                    <div class="third_block_buy">
+                        <a href="#">КУПИТЬ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="third_block_slide">
+                <div class='third_block_img_container'>
+                    <a href="#"><img class='third_block_img' src="img/img4.jpg"></a>
+                    <div class="icons_img">
+                        <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                        <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                        <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                    </div>
+                </div>
+                <div class='third_block_img_content'>
+                    <div class="third_block_specification">
+                        <a href="#">ЛЮСТРА НА 12 ПЛАФОНОВ</a>
+                    </div>
+                    <div class="third_block_prises">
+                        <span class="old_prise">14 653</span>
+                        <span class="prise">10 456 грн</span>
+                    </div>
+                    <div class="third_block_buy">
+                        <a href="#">КУПИТЬ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="third_block_slide">
+                <div class='third_block_img_container'>
+                    <a href="#"><img class='third_block_img' src="img/img4.jpg"></a>
+                    <div class="icons_img">
+                        <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                        <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                        <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                    </div>
+                </div>
+                <div class='third_block_img_content'>
+                    <div class="third_block_specification">
+                        <a href="#">ЛЮСТРА НА 12 ПЛАФОНОВ</a>
+                    </div>
+                    <div class="third_block_prises">
+                        <span class="old_prise">14 653</span>
+                        <span class="prise">10 456 грн</span>
+                    </div>
+                    <div class="third_block_buy">
+                        <a href="#">КУПИТЬ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="third_block_slide">
+                <div class='third_block_img_container'>
+                    <a href="#"><img class='third_block_img' src="img/img4.jpg"></a>
+                    <div class="icons_img">
+                        <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                        <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                        <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                    </div>
+                </div>
+                <div class='third_block_img_content'>
+                    <div class="third_block_specification">
+                        <a href="#">ЛЮСТРА НА 12 ПЛАФОНОВ</a>
+                    </div>
+                    <div class="third_block_prises">
+                        <span class="old_prise">14 653</span>
+                        <span class="prise">10 456 грн</span>
+                    </div>
+                    <div class="third_block_buy">
+                        <a href="#">КУПИТЬ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="third_block_slide">
+                <div class='third_block_img_container'>
+                    <a href="#"><img class='third_block_img' src="img/img5.jpg"></a>
+                    <div class="icons_img">
+                            <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                    </div>
+                </div>
+                <div class='third_block_img_content'>
+                    <div class="third_block_specification">
+                        <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                    </div>
+                    <div class="third_block_prises">
+                        <span class="old_prise">1 323</span>
+                        <span class="prise">915 грн</span>
+                    </div>
+                    <div class="third_block_buy">
+                        <a href="#">КУПИТЬ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="third_block_slide">
+                <div class='third_block_img_container'>
+                    <a href="#"><img class='third_block_img' src="img/img5.jpg"></a>
+                    <div class="icons_img">
+                            <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                    </div>
+                </div>
+                <div class='third_block_img_content'>
+                    <div class="third_block_specification">
+                        <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                    </div>
+                    <div class="third_block_prises">
+                        <span class="old_prise">1 323</span>
+                        <span class="prise">915 грн</span>
+                    </div>
+                    <div class="third_block_buy">
+                        <a href="#">КУПИТЬ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div id="third_block_slide_new">
+                <div id="third_block_slide_first_new" class="third_block_slide">
+                    <div class='third_block_img_container'>
+                        <a href="#"><img class='third_block_img' src="img/img8.jpg"></a>
+                        <div class="icons_img">
+                                <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                        </div>
+                    </div>
+                    <div class='third_block_img_content'>
+                        <div class="third_block_specification">
+                            <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                        </div>
+                        <div class="third_block_prises">
+                            <span class="old_prise">1 323</span>
+                            <span class="prise">915 грн</span>
+                        </div>
+                        <div class="third_block_buy">
+                            <a href="#">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="third_block_slide">
+                    <div class='third_block_img_container'>
+                        <a href="#"><img class='third_block_img' src="img/img8.jpg"></a>
+                        <div class="icons_img">
+                                <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                        </div>
+                    </div>
+                    <div class='third_block_img_content'>
+                        <div class="third_block_specification">
+                            <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                        </div>
+                        <div class="third_block_prises">
+                            <span class="old_prise">1 323</span>
+                            <span class="prise">915 грн</span>
+                        </div>
+                        <div class="third_block_buy">
+                            <a href="#">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="third_block_slide">
+                    <div class='third_block_img_container'>
+                        <a href="#"><img class='third_block_img' src="img/img8.jpg"></a>
+                        <div class="icons_img">
+                                <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                        </div>
+                    </div>
+                    <div class='third_block_img_content'>
+                        <div class="third_block_specification">
+                            <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                        </div>
+                        <div class="third_block_prises">
+                            <span class="old_prise">1 323</span>
+                            <span class="prise">915 грн</span>
+                        </div>
+                        <div class="third_block_buy">
+                            <a href="#">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="third_block_slide">
+                    <div class='third_block_img_container'>
+                        <a href="#"><img class='third_block_img' src="img/img8.jpg"></a>
+                        <div class="icons_img">
+                                <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                        </div>
+                    </div>
+                    <div class='third_block_img_content'>
+                        <div class="third_block_specification">
+                            <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                        </div>
+                        <div class="third_block_prises">
+                            <span class="old_prise">1 323</span>
+                            <span class="prise">915 грн</span>
+                        </div>
+                        <div class="third_block_buy">
+                            <a href="#">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="third_block_slide">
+                    <div class='third_block_img_container'>
+                        <a href="#"><img class='third_block_img' src="img/img4.jpg"></a>
+                        <div class="icons_img">
+                            <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                        </div>
+                    </div>
+                    <div class='third_block_img_content'>
+                        <div class="third_block_specification">
+                            <a href="#">ЛЮСТРА НА 12 ПЛАФОНОВ</a>
+                        </div>
+                        <div class="third_block_prises">
+                            <span class="old_prise">14 653</span>
+                            <span class="prise">10 456 грн</span>
+                        </div>
+                        <div class="third_block_buy">
+                            <a href="#">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="third_block_slide">
+                    <div class='third_block_img_container'>
+                        <a href="#"><img class='third_block_img' src="img/img4.jpg"></a>
+                        <div class="icons_img">
+                            <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                        </div>
+                    </div>
+                    <div class='third_block_img_content'>
+                        <div class="third_block_specification">
+                            <a href="#">ЛЮСТРА НА 12 ПЛАФОНОВ</a>
+                        </div>
+                        <div class="third_block_prises">
+                            <span class="old_prise">14 653</span>
+                            <span class="prise">10 456 грн</span>
+                        </div>
+                        <div class="third_block_buy">
+                            <a href="#">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="third_block_slide">
+                    <div class='third_block_img_container'>
+                        <a href="#"><img class='third_block_img' src="img/img4.jpg"></a>
+                        <div class="icons_img">
+                            <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                        </div>
+                    </div>
+                    <div class='third_block_img_content'>
+                        <div class="third_block_specification">
+                            <a href="#">ЛЮСТРА НА 12 ПЛАФОНОВ</a>
+                        </div>
+                        <div class="third_block_prises">
+                            <span class="old_prise">14 653</span>
+                            <span class="prise">10 456 грн</span>
+                        </div>
+                        <div class="third_block_buy">
+                            <a href="#">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="third_block_slide">
+                    <div class='third_block_img_container'>
+                        <a href="#"><img class='third_block_img' src="img/img4.jpg"></a>
+                        <div class="icons_img">
+                            <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                            <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                        </div>
+                    </div>
+                    <div class='third_block_img_content'>
+                        <div class="third_block_specification">
+                            <a href="#">ЛЮСТРА НА 12 ПЛАФОНОВ</a>
+                        </div>
+                        <div class="third_block_prises">
+                            <span class="old_prise">14 653</span>
+                            <span class="prise">10 456 грн</span>
+                        </div>
+                        <div class="third_block_buy">
+                            <a href="#">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="third_block_slide">
+                    <div class='third_block_img_container'>
+                        <a href="#"><img class='third_block_img' src="img/img5.jpg"></a>
+                        <div class="icons_img">
+                                <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                        </div>
+                    </div>
+                    <div class='third_block_img_content'>
+                        <div class="third_block_specification">
+                            <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                        </div>
+                        <div class="third_block_prises">
+                            <span class="old_prise">1 323</span>
+                            <span class="prise">915 грн</span>
+                        </div>
+                        <div class="third_block_buy">
+                            <a href="#">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="third_block_slide">
+                    <div class='third_block_img_container'>
+                        <a href="#"><img class='third_block_img' src="img/img5.jpg"></a>
+                        <div class="icons_img">
+                                <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                        </div>
+                    </div>
+                    <div class='third_block_img_content'>
+                        <div class="third_block_specification">
+                            <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                        </div>
+                        <div class="third_block_prises">
+                            <span class="old_prise">1 323</span>
+                            <span class="prise">915 грн</span>
+                        </div>
+                        <div class="third_block_buy">
+                            <a href="#">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="third_block_slide_popular">
+                    <div id="third_block_slide_first_popular" class="third_block_slide">
+                        <div class='third_block_img_container'>
+                            <a href="#"><img class='third_block_img' src="img/img4.jpg"></a>
+                            <div class="icons_img">
+                                    <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                    <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                    <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                            </div>
+                        </div>
+                        <div class='third_block_img_content'>
+                            <div class="third_block_specification">
+                                <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                            </div>
+                            <div class="third_block_prises">
+                                <span class="old_prise">1 323</span>
+                                <span class="prise">915 грн</span>
+                            </div>
+                            <div class="third_block_buy">
+                                <a href="#">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="third_block_slide">
+                        <div class='third_block_img_container'>
+                            <a href="#"><img class='third_block_img' src="img/img4.jpg"></a>
+                            <div class="icons_img">
+                                    <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                    <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                    <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                            </div>
+                        </div>
+                        <div class='third_block_img_content'>
+                            <div class="third_block_specification">
+                                <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                            </div>
+                            <div class="third_block_prises">
+                                <span class="old_prise">1 323</span>
+                                <span class="prise">915 грн</span>
+                            </div>
+                            <div class="third_block_buy">
+                                <a href="#">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="third_block_slide">
+                        <div class='third_block_img_container'>
+                            <a href="#"><img class='third_block_img' src="img/img4.jpg"></a>
+                            <div class="icons_img">
+                                    <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                    <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                    <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                            </div>
+                        </div>
+                        <div class='third_block_img_content'>
+                            <div class="third_block_specification">
+                                <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                            </div>
+                            <div class="third_block_prises">
+                                <span class="old_prise">1 323</span>
+                                <span class="prise">915 грн</span>
+                            </div>
+                            <div class="third_block_buy">
+                                <a href="#">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="third_block_slide">
+                        <div class='third_block_img_container'>
+                            <a href="#"><img class='third_block_img' src="img/img4.jpg"></a>
+                            <div class="icons_img">
+                                    <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                    <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                    <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                            </div>
+                        </div>
+                        <div class='third_block_img_content'>
+                            <div class="third_block_specification">
+                                <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                            </div>
+                            <div class="third_block_prises">
+                                <span class="old_prise">1 323</span>
+                                <span class="prise">915 грн</span>
+                            </div>
+                            <div class="third_block_buy">
+                                <a href="#">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="third_block_slide">
+                        <div class='third_block_img_container'>
+                            <a href="#"><img class='third_block_img' src="img/img8.jpg"></a>
+                            <div class="icons_img">
+                                <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                            </div>
+                        </div>
+                        <div class='third_block_img_content'>
+                            <div class="third_block_specification">
+                                <a href="#">ЛЮСТРА НА 12 ПЛАФОНОВ</a>
+                            </div>
+                            <div class="third_block_prises">
+                                <span class="old_prise">14 653</span>
+                                <span class="prise">10 456 грн</span>
+                            </div>
+                            <div class="third_block_buy">
+                                <a href="#">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_block_slide">
+                        <div class='third_block_img_container'>
+                            <a href="#"><img class='third_block_img' src="img/img8.jpg"></a>
+                            <div class="icons_img">
+                                <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                            </div>
+                        </div>
+                        <div class='third_block_img_content'>
+                            <div class="third_block_specification">
+                                <a href="#">ЛЮСТРА НА 12 ПЛАФОНОВ</a>
+                            </div>
+                            <div class="third_block_prises">
+                                <span class="old_prise">14 653</span>
+                                <span class="prise">10 456 грн</span>
+                            </div>
+                            <div class="third_block_buy">
+                                <a href="#">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_block_slide">
+                        <div class='third_block_img_container'>
+                            <a href="#"><img class='third_block_img' src="img/img8.jpg"></a>
+                            <div class="icons_img">
+                                <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                            </div>
+                        </div>
+                        <div class='third_block_img_content'>
+                            <div class="third_block_specification">
+                                <a href="#">ЛЮСТРА НА 12 ПЛАФОНОВ</a>
+                            </div>
+                            <div class="third_block_prises">
+                                <span class="old_prise">14 653</span>
+                                <span class="prise">10 456 грн</span>
+                            </div>
+                            <div class="third_block_buy">
+                                <a href="#">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_block_slide">
+                        <div class='third_block_img_container'>
+                            <a href="#"><img class='third_block_img' src="img/img8.jpg"></a>
+                            <div class="icons_img">
+                                <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                            </div>
+                        </div>
+                        <div class='third_block_img_content'>
+                            <div class="third_block_specification">
+                                <a href="#">ЛЮСТРА НА 12 ПЛАФОНОВ</a>
+                            </div>
+                            <div class="third_block_prises">
+                                <span class="old_prise">14 653</span>
+                                <span class="prise">10 456 грн</span>
+                            </div>
+                            <div class="third_block_buy">
+                                <a href="#">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_block_slide">
+                        <div class='third_block_img_container'>
+                            <a href="#"><img class='third_block_img' src="img/img5.jpg"></a>
+                            <div class="icons_img">
+                                    <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                    <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                    <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                            </div>
+                        </div>
+                        <div class='third_block_img_content'>
+                            <div class="third_block_specification">
+                                <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                            </div>
+                            <div class="third_block_prises">
+                                <span class="old_prise">1 323</span>
+                                <span class="prise">915 грн</span>
+                            </div>
+                            <div class="third_block_buy">
+                                <a href="#">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third_block_slide" id="last_popular">
+                        <div class='third_block_img_container'>
+                            <a href="#"><img class='third_block_img' src="img/img5.jpg"></a>
+                            <div class="icons_img">
+                                    <i class="fa fa-heart fa-lg third_block_add_icon"></i>
+                                    <i class="fa fa-balance-scale fa-lg third_block_add_icon"></i>
+                                    <i class="fa fa-search-plus fa-lg third_block_add_icon"></i>
+                            </div>
+                        </div>
+                        <div class='third_block_img_content'>
+                            <div class="third_block_specification">
+                                <a href="#">БРА НАСТЕННОЕ DOUBLE L-30CM</a>
+                            </div>
+                            <div class="third_block_prises">
+                                <span class="old_prise">1 323</span>
+                                <span class="prise">915 грн</span>
+                            </div>
+                            <div class="third_block_buy">
+                                <a href="#">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+
+        <script src="script.js"></script>
+     </body>
+</html>
