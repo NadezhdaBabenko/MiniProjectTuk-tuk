@@ -11,13 +11,13 @@ second_block_btn2.addEventListener('click', block2_change_img2);
 function block2_change_img1(){
     second_block_btn1.style.backgroundColor='#089bf1';
     second_block_btn2.style.backgroundColor='white';
-    second_block_img.src="../Tuk-tuk/img/img1.png"; 
+    second_block_img.src="img/img1.png"; 
 }
 
 function block2_change_img2(){
     second_block_btn2.style.backgroundColor='#089bf1';
     second_block_btn1.style.backgroundColor='white';
-    second_block_img.src="../Tuk-tuk/img/img2.png"; 
+    second_block_img.src="img/img2.png"; 
 }
 
 //Запускает таймер
@@ -25,12 +25,12 @@ window.setInterval(timer, 10000);
 function timer() {
     var img1 = document.getElementById('second_block_img');
     if (img1.src.endsWith('1.png')){
-        img1.src = '../Tuk-tuk/img/img2.png';
+        img1.src = 'img/img2.png';
         second_block_btn2.style.backgroundColor='#089bf1';
         second_block_btn1.style.backgroundColor='white';
     }
     else if (img1.src.endsWith('2.png')){
-        img1.src = '../Tuk-tuk/img/img1.png';
+        img1.src = 'img/img1.png';
         second_block_btn1.style.backgroundColor='#089bf1';
         second_block_btn2.style.backgroundColor='white';     
     }
